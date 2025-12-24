@@ -6,6 +6,10 @@ Clone this repository and set up its submodules.
 
 **Git clone**
 ```
+sudo apt-get update
+sudo apt-get install -y git-lfs
+git lfs install
+
 git clone git@github.com:ScaleSwap-All-Flash/ScaleSwap.git
 ```
 
