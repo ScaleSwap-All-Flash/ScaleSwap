@@ -59,3 +59,12 @@ $ sudo su
 # ./remove_mod.sh
 # umount /mnt/test
 ```
+
+##Run benchmark
+
+**stress**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/stress
+# ./test_with_dstat_stress_no_time_limit.sh
+```

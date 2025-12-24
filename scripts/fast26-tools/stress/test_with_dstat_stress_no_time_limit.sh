@@ -51,8 +51,8 @@ tmux new-session -d -s $SESSION_NAME "dstat -D md127 --output ${cur_path}/${uniq
 #../../stress-no-time-limit/src/stress --vm 16 --vm-bytes 17600M --vm-keep
 #../../stress-no-time-limit/src/stress --vm 32 --vm-bytes 8800M --vm-keep
 #../../stress-no-time-limit/src/stress --vm 64 --vm-bytes 4400M --vm-keep
-#./stress-no-time-limit/src/stress --vm 128 --vm-bytes 2200M --vm-keep
-./stress-no-time-limit/src/stress --vm 128 --vm-bytes 22M --vm-keep
+./stress-no-time-limit/src/stress --vm 128 --vm-bytes 2200M --vm-keep
+#./stress-no-time-limit/src/stress --vm 128 --vm-bytes 22M --vm-keep
 #../stress-no-time-limit_latency/src/stress --vm 128 --vm-bytes 2200M --vm-keep
 #taskset -c 1  ~/workspace_hwan/stress-no-time-limit-pinned/src/stress --vm 1 --vm-bytes 50G --vm-keep &
 #stress --vm 128 --vm-bytes 2200M --vm-keep
