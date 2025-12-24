@@ -1,5 +1,14 @@
 # ScaleSwap: A Scalable OS Swap System for All-Flash Swap Arrays
 
+## Getting started
+
+Clone this repository and set up its submodules. 
+
+**Git clone**
+```
+git clone git@github.com:ScaleSwap-All-Flash/ScaleSwap.git
+```
+
 **Kernel compile**
 ```
 $ sudo su
@@ -8,7 +17,6 @@ $ sudo su
 # make -j $(nproc)
 # make -j $(nproc) INSTALL_MOD_STRIP=1 modules_install
 # make -j $(nproc) install
-# reboot
 ```
 
 **Module comile**
