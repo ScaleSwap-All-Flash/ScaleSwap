@@ -68,3 +68,40 @@ $ sudo su
 # cd <ScaleSwap>/scripts/fast26-tools/stress
 # ./test_with_dstat_stress_no_time_limit.sh
 ```
+
+**image(gray-scale)**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/image_processing
+# ./gray_scale_test_with_dstat.sh 128 (# of cores)
+```
+
+**image(flip)**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/image_processing
+# ./test_with_dstat.sh 128 (# of cores)
+```
+
+**dns_visualization**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/dna_visualization
+# ./test_with_dstat.sh 128 (# of cores)
+```
+
+**bfs**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/gapbs
+# make -j $(nproc)
+# cd ./fast26-test
+# ./test_with_dstat.sh 128 (# of cores)
+```
+
+**python list**
+```
+$ sudo su
+# cd <ScaleSwap>/scripts/fast26-tools/python_list
+# ./test_with_dstat.sh 128 (# of cores)
+```
